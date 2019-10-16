@@ -71,18 +71,19 @@ body {
     background-color: var(--creme);
 }
 
+.ft-bi, .ft-ds {
+    text-align: center;
+    font-weight: bold;
+}
+
 .ft-bi {
     background-color: var(--frblue-lt);
     color: var(--creme-lt);
-    text-align: center;
-    font-weight: bold;
 }
 
 .ft-ds {
     background-color: var(--orange);
     color: var(--creme-lt);
-    text-align: center;
-    font-weight: bold;
 }
 
 .course-logo {
