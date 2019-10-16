@@ -1,0 +1,102 @@
+:root {
+    --creme-lt: #FFFFFF;
+    --creme: #F7EEDD;
+    --creme-dk: #ECD5AC;
+    --orange: #FDB435;
+    --orange-lt: #FCA50A;
+    --orange-dk: #CA8102;
+    --frblue-lt: #00D6D6;
+    --frblue: #00FFFF;
+    --frblue-dk: #009999;
+    --dkblue-lt: #024764;
+    --dkblue: #012839;
+    --dkblue-dk: #000000;
+    --title-bg-img: url("img/title-img.jpg")
+}
+
+body {
+    color: var(--dkblue);
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2, .h3, .btn, .nav-link {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-custom {
+    background-color: var(--creme-lt);
+}
+
+.h1, .navbar-brand {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bolder;
+}
+
+.h1.title  {
+    font-size: 48px;
+}
+
+.btn-primary.custom-btn, .nav-pills {
+    background-color: var(--orange);
+    border: var(--orange)!important;
+    box-shadow: none!important;
+}
+
+.btn-primary.custom-btn:focus, .btn-primary.custom-btn:active, .btn-primary.custom-btn:hover {
+    background: var(--orange-dk)!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .dropdown-toggle:active, .open .dropdown-toggle,.dropdown-toggle:focus, .dropdown-item:active {
+    background: var(--orange)!important;
+}
+
+.btn-primary.custom-btn-card {
+    background-color: var(--dkblue-lt);
+    border: var(--dkblue-lt)!important;
+    box-shadow: none!important;
+}
+
+.btn-primary.custom-btn-card:focus, .btn-primary.custom-btn-card:active, .btn-primary.custom-btn-card:hover {
+    background: var(--frblue-dk)!important;
+}
+
+.nav-link{
+    color: var(--creme-lt);
+}
+
+.nav-link:hover {
+    color: var(--creme);}
+
+.title-jumbo-lg, .title-jumbo-sm {
+    background-color: var(--creme);
+}
+
+.ft-bi {
+    background-color: var(--frblue-lt);
+    color: var(--creme-lt);
+    text-align: center;
+    font-weight: bold;
+}
+
+.ft-ds {
+    background-color: var(--orange);
+    color: var(--creme-lt);
+    text-align: center;
+    font-weight: bold;
+}
+
+.course-logo {
+    width: 40%;
+    height: 50px;
+    object-fit: scale-down;
+}
+
+#title-lg {
+    background-image: var(--title-bg-img);
+    height: 400px;
+}
+
+#title-sm {
+    background-color: var(--creme-dk);
+    height: 400px;
+}
