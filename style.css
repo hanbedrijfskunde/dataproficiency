@@ -51,13 +51,13 @@ body {
 }
 
 .btn-primary.custom-btn-card {
-    background-color: var(--medium2-dk);
-    border: var(--medium2-dk)!important;
+    background-color: var(--medium1);
+    border: var(--medium1)!important;
     box-shadow: none!important;
 }
 
 .btn-primary.custom-btn-card:focus, .btn-primary.custom-btn-card:active, .btn-primary.custom-btn-card:hover {
-    background: var(--dark-lt)!important;
+    background: var(--medium1-dk)!important;
 }
 
 .nav-link{
@@ -77,12 +77,12 @@ body {
 }
 
 .ft-bi {
-    background-color: var(--medium2);
+    background-color: var(--medium2-dk);
     color: var(--pale-lt);
 }
 
 .ft-ds {
-    background-color: var(--medium1);
+    background-color: var(--dark-lt);
     color: var(--pale-lt);
 }
 
