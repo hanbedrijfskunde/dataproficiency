@@ -78,12 +78,12 @@ body {
 }
 
 .ft-bi {
-    background-color: var(--pale-dk);
+    background-color: var(--dark-lt);
     color: var(--white);
 }
 
 .ft-ds {
-    background-color: var(--medium1-dk);
+    background-color: var(--dark-lt);
     color: var(--white);
 }
 
