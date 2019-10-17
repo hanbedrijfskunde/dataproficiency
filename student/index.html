@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Syncopate|Open+Sans|Raleway|Varela+Round&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Data Pro</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-custom navbar-expand">
+			<span class="navbar-brand mb-0 h1">DATA PROFICIENCY</span>
+			<ul class="navbar-nav mr-auto nav-pills">
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						data-toggle="dropdown"
+						href="#"
+						role="button"
+						aria-haspopup="true"
+						aria-expanded="false"
+						>Ontdek</a
+					>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Business Intelligence</a>
+						<a class="dropdown-item" href="#">Process Mining</a>
+						<a class="dropdown-item" href="#">Data Science</a>
+						<a class="dropdown-item" href="#">Data Engineering</a>
+						<a class="dropdown-item" href="#">Machine Learning</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="row p-5 d-none d-lg-block" id="title-lg">
+			<div class="jumbotron title-jumbo-lg col-5">
+				<div class="h2 display-4">Word Data-Pro!</div>
+				<p class="lead">Begin vandaag. Studeer wanneer je wilt. Waar je wilt. Hoe je wilt.</p>
+				<a class="btn btn-primary custom-btn btn-lg" href="#" role="button">Start hier</a>
+			</div>
+		</div>
+		<!-- For smaller screens -->
+		<div class="row p-5 d-lg-none d-xl-none" id="title-sm">
+			<div class="jumbotron title-jumbo-sm">
+				<div class="h2 display-4">Word Data-Pro!</div>
+				<p class="lead">Begin vandaag. Studeer wanneer je wilt. Waar je wilt. Hoe je wilt.</p>
+				<a class="btn btn-primary custom-btn btn-lg" href="#" role="button">Start hier</a>
+			</div>
+		</div>
+		<div class="card-deck m-3">
+			<div class="card">
+				<img class="card-img-top course-logo float-left mt-3 ml-2" src="img/qlik-logo-2x.png" alt="Quik logo" />
+				<hr />
+				<div class="card-body">
+					<h2 class="card-title">Qlik Academic Program</h2>
+					<p class="lead">Word Data-Pro met Qlik</p>
+					<p class="card-text">
+						Qlik biedt gratis software en bronnen aan om de volgende generatie experts te helpen opleiden
+						en leiden met data.
+					</p>
+					<a
+						class="btn btn-primary custom-btn-card btn-lg"
+                        href="https://www.qlik.com/us/company/academic-program"
+                        target="_blank"
+                        role="button"
+                        id="Qlik - Word Data-Pro met Qlik"
+                        onclick="clickLog(this.id)"
+						>Start nu
+					</a>
+				</div>
+				<div class="card-footer ft-bi">
+					Business Intelligence
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top course-logo float-left mt-3 ml-2" src="img/dataiku.png" alt="Quik logo" />
+				<hr />
+				<div class="card-body">
+					<h2 class="card-title">Dataiku Academy</h2>
+					<p class="lead">Start met Data Science</p>
+					<p class="card-text">
+						Dataiku DSS is een softwareplatform voor Data Science waar teams van Data-Pro's kunnen
+						samenwerken om dataproducten te ontwerpen.
+					</p>
+					<a
+						class="btn btn-primary custom-btn-card btn-lg"
+                        href="https://academy.dataiku.com/latest/"
+                        target="_blank"
+                        role="button"
+                        id="Dataiku - Start met Data Science"
+                        onclick="clickLog(this.id)"
+						>Start nu
+					</a>
+				</div>
+				<div class="card-footer ft-ds">
+					Data Science
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top course-logo float-left mt-3 ml-2" src="img/rstudio.svg" alt="Quik logo" />
+				<hr />
+				<div class="card-body">
+					<h2 class="card-title">R en RStudio Tutorial</h2>
+					<p class="lead">Leer programmeren met data</p>
+					<p class="card-text">
+						Deze tutorial is aanvullend op de boeken
+						<em>Adventure in Statistics </em>
+						en <em>Discovering Statistics using R and RStudio </em> van Andy Field.
+					</p>
+					<a
+						class="btn btn-primary custom-btn-card btn-lg"
+                        href="http://milton-the-cat.rocks/learnr/r/r_getting_started/#section-overview"
+                        target="_blank"
+                        role="button"
+                        id="RStudio - Leer programmeren met data"
+                        onclick="clickLog(this.id)"
+						>Start nu
+					</a>
+				</div>
+				<div class="card-footer ft-ds">
+					Data Science
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+	</body>
+</html>

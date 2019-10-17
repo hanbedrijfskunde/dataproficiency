@@ -2,11 +2,11 @@
     --pale-lt: #FFFFFF;
     --pale: #F7EEDD;
     --pale-dk: #ECD5AC;
-    --medium1-lt: #FDB435;
-    --medium1: #FCA50A;
+    --medium1: #FDB435;
+    --medium1-lt: #FCA50A;
     --medium1-dk: #CA8102;
-    --medium2-lt: #00FFFF;
-    --medium2: #00D6D6;
+    --medium2-lt: #00D6D6;
+    --medium2: #00FFFF;
     --medium2-dk: #009999;
     --dark-lt: #024764;
     --dark: #012839;
@@ -77,12 +77,12 @@ body {
 }
 
 .ft-bi {
-    background-color: var(--medium2);
+    background-color: var(--medium2-lt);
     color: var(--pale-lt);
 }
 
 .ft-ds {
-    background-color: var(--medium1);
+    background-color: var(--medium1-dk);
     color: var(--pale-lt);
 }
 
